@@ -1,0 +1,124 @@
+﻿  MainFrame.cpp
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\SequentialWordFrequencyCounter.h(17,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+  (compiling source file 'MainFrame.cpp')
+  
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\SequentialWordFrequencyCounter.h(18,13): error C2593: 'operator <<' is ambiguous
+  (compiling source file 'MainFrame.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  could be 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_streambuf<wchar_t,std::char_traits<wchar_t>> *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(const void *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(float)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned __int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(__int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\thread(290,26):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,std::thread::id)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,const char *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,const std::error_code &)'
+  C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\SequentialWordFrequencyCounter.h(18,13):
+  while trying to match the argument list '(std::wstringstream, unknown-type)'
+  
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ParallelWordFrequencyCounter.h(26,31): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+  (compiling source file 'MainFrame.cpp')
+  
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ParallelWordFrequencyCounter.h(43,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+  (compiling source file 'MainFrame.cpp')
+  
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ParallelWordFrequencyCounter.h(44,13): error C2593: 'operator <<' is ambiguous
+  (compiling source file 'MainFrame.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  could be 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_streambuf<wchar_t,std::char_traits<wchar_t>> *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(const void *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(float)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned __int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(__int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\thread(290,26):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,std::thread::id)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,const char *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  or       'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,const std::error_code &)'
+  C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ParallelWordFrequencyCounter.h(44,13):
+  while trying to match the argument list '(std::wstringstream, unknown-type)'
+  
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(12,72): error C2678: binary '?': no operator found which takes a left-hand operand of type 'std::unique_ptr<ParallelSubstringSearch,std::default_delete<ParallelSubstringSearch>>' (or there is no acceptable conversion)
+  (compiling source file 'MainFrame.cpp')
+  C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(12,72):
+  could be 'built-in C++ operator?(int, int)'
+  	C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(12,72):
+  	'?': cannot convert argument 1 from 'std::unique_ptr<ParallelSubstringSearch,std::default_delete<ParallelSubstringSearch>>' to 'int'
+  C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(12,72):
+  while trying to match the argument list '(std::unique_ptr<ParallelSubstringSearch,std::default_delete<ParallelSubstringSearch>>, std::unique_ptr<SequentialSubstringSearch,std::default_delete<SequentialSubstringSearch>>)'
+  
+C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(15,77): error C2678: binary '?': no operator found which takes a left-hand operand of type 'std::unique_ptr<ParallelWordFrequencyCounter,std::default_delete<ParallelWordFrequencyCounter>>' (or there is no acceptable conversion)
+  (compiling source file 'MainFrame.cpp')
+  C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(15,77):
+  could be 'built-in C++ operator?(int, int)'
+  	C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(15,77):
+  	'?': cannot convert argument 1 from 'std::unique_ptr<ParallelWordFrequencyCounter,std::default_delete<ParallelWordFrequencyCounter>>' to 'int'
+  C:\Users\HP-USERS\OneDrive\Робочий стіл\sem2_lab3\sem2_lab3\ProcessorFactory.h(15,77):
+  while trying to match the argument list '(std::unique_ptr<ParallelWordFrequencyCounter,std::default_delete<ParallelWordFrequencyCounter>>, std::unique_ptr<SequentialWordFrequencyCounter,std::default_delete<SequentialWordFrequencyCounter>>)'
+  
+  sem2_lab3.cpp
+  Generating Code...
